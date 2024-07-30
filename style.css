@@ -114,8 +114,8 @@ button {
     align-items: left;
 }
 button img {
-    width: 16.02px;
-    height: 20px;
+    width: 18.02px;
+    height: 18px;
     left: 1.99px;
 }
 .newButton{
@@ -125,4 +125,16 @@ button img {
     height: 50px;
     top: 10px;
     margin-left: 20px;
+}
+.main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main .newButton {
+    margin-right: 10px;
+}
+.main .logo {
+    align-items: right;
+    display: flex;
 }
