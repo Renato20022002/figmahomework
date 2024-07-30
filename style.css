@@ -6,11 +6,16 @@
 .nav ul li .color {
 color:#EB662B;
 }
+.login {
+    border: 1px solid white;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
 .container {
     background-image: url(Section\ →\ image.png);
     background-size: cover;
     background-position: center;
-    height: 85vh;
+    height: 90vh;
     padding: 30px;
 }
 .nav {
@@ -137,4 +142,30 @@ button img {
 .main .logo {
     align-items: right;
     display: flex;
+}
+.mini p {
+    justify-content: center;
+    text-align: center;
+    font-size: 14.77px;
+    color: #fff;
+    margin-top: 40px;
+}
+.and-header {
+    display: flex;
+    justify-content: center;
+}
+.and-header ul {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    list-style-type: none;
+    color: #fff;
+    
+}
+.btn {
+    border: 0.5px solid rgba(255, 255, 255, 0.132);
+    padding: 15px 25px;
+    transition: 0.5 ease;
+    border-radius: 50px;
+    background-color:rgba(255, 255, 255, 0.132);
 }
